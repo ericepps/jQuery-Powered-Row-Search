@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>jQuery Row Search</title>
+  <meta name="description" content="Search rows of text/data with this jQuery snippet.">
+  <meta name="author" content="Agency MABU">
+
+  <style>
+    label {
+      padding:3px;
+    }
+  </style>
+
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- CSS: implied media=all -->
+  <!-- CSS concatenated and minified via ant build script-->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="jq-row-search.css">
+  <!-- end CSS-->
+</head>
+
+<body>
+  <div id="container" style="padding:10px;">
+    <input type="search" id="text-search" placeholder="Search by text...">
+    <hr/>
+    <label for="drop-search1">or search by an option</label>
+    <select id="drop-search1">
+      <option value="">Choose an accomidation...</option>
+      <option value="Parking">Parking</option>
+      <option value="Rest Rooms">Rest Rooms</option>
+      <option value="Skating Hockey Rink">Skating or Hockey Rink</option>
+      <option value="Sledding Hill">Sledding Hill</option>
+      <option value="Warming House">Warming House</option>
+    </select>
+    <label for="drop-search2">and filter with another option</label>
+    <select id="drop-search2">
+      <option value="">Choose an accomidation...</option>
+      <option value="Parking">Parking</option>
+      <option value="Rest Rooms">Rest Rooms</option>
+      <option value="Skating Hockey Rink">Skating or Hockey Rink</option>
+      <option value="Sledding Hill">Sledding Hill</option>
+      <option value="Warming House">Warming House</option>
+    </select>
+    <hr/>
+    <table id="search-table"><tbody>
+    <tr class="search-header">
+      <th>Park</th>
+      <th>Parking</th>
+      <th>Rest Rooms</th>
+      <th>Skating/Hockey Rink</th>
+      <th>Sledding Hill</th>
+      <th>Warming House</th>
+    </tr>
+    <tr class="search-row">
+      <td>Roland Park</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><label>Sledding Hill</label><input type="checkbox" disabled checked value="Sledding Hill"></td>
+      <td></td>
+    </tr>
+    <tr class="search-row">
+      <td>Hercules Park</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><label>Sledding Hill</label><input type="checkbox" disabled checked value="Sledding Hill"></td>
+      <td></td>
+    </tr>
+    <tr class="search-row">
+      <td>Centennial Park</td>
+      <td><label>Parking</label><input type="checkbox" disabled checked value="Parking"></td>
+      <td></td>
+      <td><label>Skating Hockey Rink</label><input type="checkbox" disabled checked value="Skating Hockey Rink"></td>
+      <td><label>Sledding Hill</label><input type="checkbox" disabled checked value="Sledding Hill"></td>
+      <td><label>Warming House</label><input type="checkbox" disabled checked value="Warming House"></td>
+    </tr>
+    <tr class="search-row">
+      <td>Addison Park</td>
+      <td><label>Parking</label><input type="checkbox" disabled checked value="Parking"></td>
+      <td><label>Rest Rooms</label><input type="checkbox" disabled checked value="Rest Rooms"></td>
+      <td><label>Skating Hockey Rink</label><input type="checkbox" disabled checked value="Skating Hockey Rink"></td>
+      <td><label>Sledding Hill</label><input type="checkbox" disabled checked value="Sledding Hill"></td>
+      <td><label>Warming House</label><input type="checkbox" disabled checked value="Warming House"></td>
+    </tr>
+    <tr class="search-row">
+      <td>Glenn Park</td>
+      <td><label>Parking</label><input type="checkbox" disabled checked value="Parking"></td>
+      <td></td>
+      <td></td>
+      <td><label>Sledding Hill</label><input type="checkbox" disabled checked value="Sledding Hill"></td>
+      <td></td>
+    </tr>
+    <tr class="search-row">
+      <td>King Hill</td>
+      <td><label>Parking</label><input type="checkbox" disabled checked value="Parking"></td>
+      <td><label>Rest Rooms</label><input type="checkbox" disabled checked value="Rest Rooms"></td>
+      <td></td>
+      <td><label>Sledding Hill</label><input type="checkbox" disabled checked value="Sledding Hill"></td>
+      <td></td>
+    </tr>
+    <tr class="search-row">
+      <td>Tesla Golf Course</td>
+      <td><label>Parking</label><input type="checkbox" disabled checked value="Parking"></td>
+      <td><label>Rest Rooms</label><input type="checkbox" disabled checked value="Rest Rooms"></td>
+      <td></td>
+      <td><label>Sledding Hill</label><input type="checkbox" disabled checked value="Sledding Hill"></td>
+      <td><label>Warming House</label><input type="checkbox" disabled checked value="Warming House"></td>
+    </tr>
+  </div> <!--! end of #container -->
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+
+  <script type="text/javascript" src="jq-row-search.js"></script>
+  <!-- end scripts-->
+	
+</body>
+</html>
