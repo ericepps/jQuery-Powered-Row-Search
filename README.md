@@ -6,7 +6,7 @@ The rows can be table rows or `<div>`s or whatever you like; it all depends on t
 The real treat is the ability to do multiple 'filters' in the form of a compound jQuery pseudoclass selector. This functionality is demonstrated with the 2 select elements containing the same options; they filter down to **only the rows that match both selected options**.
 
 #How do I use it?
-You can download the whole repo and demo the search capabilities by visiting index.html in your browser.
+You can download the whole repo and demo the search capabilities by visiting `index.html` in your browser.
 
 A portion of the HTML5 Boilerplate framework is included for your convenience, and to make the demo look better.
 
@@ -30,6 +30,6 @@ namklabs - http://github.com/namklabs
 ###Todo
 + Outline exactly which jQuery selectors need to be changed/customized  
 + Add .gitignore  
-
++ Add ability to parse spaced text searches as mulitiple filters like the dropdowns  
 
 [agencymabu.com](http://agencymabu.com) | [@agencymabu](http://twitter.com/agencymabu) | [agencymabu@github](http://github.com/agencymabu)
