@@ -29,7 +29,7 @@ namklabs - http://github.com/namklabs
 
 ###Todo
 + Outline exactly which jQuery selectors need to be changed/customized  
-+ Add .gitignore  
++ <del>Add .gitignore</del>  
 + Add ability to parse spaced text searches as mulitiple filters like the dropdowns  
 
 [agencymabu.com](http://agencymabu.com) | [@agencymabu](http://twitter.com/agencymabu) | [agencymabu@github](http://github.com/agencymabu)
