@@ -12,9 +12,11 @@ A portion of the HTML5 Boilerplate framework is included for your convenience, a
 
 ##If you only want the basics,  
 Here is the minimum file requirement for it to work:  
+
 + jq-row-search.css  
 + jq-row-search.js  
 + index.html  
+
 The `div#container` in `index.html` is the main box that holds the example rows of data.  
 
 `jq-row-search.css` contains some basic styles for the table so things are readable.
@@ -28,6 +30,7 @@ Viishaal - http://api.jquery.com/contains-selector/#comment-88433188
 namklabs - http://github.com/namklabs  
 
 ###Todo
+
 + Outline exactly which jQuery selectors need to be changed/customized  
 + <del>Add .gitignore</del>  
 + Add ability to parse spaced text searches as mulitiple filters like the dropdowns  
